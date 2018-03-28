@@ -1,0 +1,17 @@
+﻿Build started 2018/1/23 14:37:48.
+     1>Project "C:\Users\Administrator\Desktop\CPM-master\build\ALL_BUILD.vcxproj" on node 2 (Rebuild target(s)).
+     1>PrepareForBuild:
+         Creating directory "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\".
+       InitializeBuildStatus:
+         Creating "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/Users/Administrator/Desktop/CPM-master/CMakeLists.txt
+         CMake does not need to re-run because C:/Users/Administrator/Desktop/CPM-master/build/CMakeFiles/generate.stamp is up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+         Touching "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+     1>Done Building Project "C:\Users\Administrator\Desktop\CPM-master\build\ALL_BUILD.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.36

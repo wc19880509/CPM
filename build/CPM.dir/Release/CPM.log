@@ -1,0 +1,181 @@
+﻿Build started 2018/1/29 14:41:40.
+     1>Project "C:\Users\Administrator\Desktop\CPM-master\build\CPM.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "CPM.dir\Release\CPM.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Administrator\Desktop\CPM-master\.\include" /IC:\OpenCV\include /IC:\OpenCV\include\opencv /IC:\OpenCV\include\opencv2 /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D WITH_SSE /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"CPM.dir\Release\\" /Fd"CPM.dir\Release\vc120.pdb" /Gd /TP /errorReport:prompt "C:\Users\Administrator\Desktop\CPM-master\CPM.cpp"
+         CPM.cpp
+     1>c:\users\administrator\desktop\cpm-master\include\Stochastic.h(32): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(43): warning C4305: '=' : truncation from 'double' to 'float'
+     1>C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(195): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(196): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(231): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(232): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(327): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(366): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(377): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(392): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(440): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(442): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(447): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(453): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(467): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(470): warning C4244: '*=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(507): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(508): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(517): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(634): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(637): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(639): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\desktop\cpm-master\include\Image.h(802): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+                 c:\users\administrator\desktop\cpm-master\include\Image.h(796) : while compiling class template member function 'bool Image<int>::imresize(float,InterType)'
+                 c:\users\administrator\desktop\cpm-master\CPM.h(77) : see reference to class template instantiation 'Image<int>' being compiled
+     1>c:\users\administrator\desktop\cpm-master\include\Image.h(803): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\administrator\desktop\cpm-master\include\Image.h(893): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+                 c:\users\administrator\desktop\cpm-master\include\Image.h(891) : while compiling class template member function 'bool Image<int>::saveImage(std::ofstream &) const'
+     1>c:\users\administrator\desktop\cpm-master\include\Image.h(924): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+                 c:\users\administrator\desktop\cpm-master\include\Image.h(919) : while compiling class template member function 'bool Image<int>::loadImage(std::ifstream &)'
+     1>c:\users\administrator\desktop\cpm-master\include\Image.h(926): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>C:\Users\Administrator\Desktop\CPM-master\.\include\ImagePyramid.h(58): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+                 C:\Users\Administrator\Desktop\CPM-master\.\include\ImagePyramid.h(53) : while compiling class template member function 'void ImagePyramid<float>::ConstructPyramid(const Image<float> &,float,int)'
+                 C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(86) : see reference to function template instantiation 'void ImagePyramid<float>::ConstructPyramid(const Image<float> &,float,int)' being compiled
+                 c:\users\administrator\desktop\cpm-master\CPM.h(79) : see reference to class template instantiation 'ImagePyramid<float>' being compiled
+     1>C:\Users\Administrator\Desktop\CPM-master\.\include\ImagePyramid.h(65): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\.\include\ImagePyramid.h(73): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\.\include\ImagePyramid.h(78): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>C:\Users\Administrator\Desktop\CPM-master\.\include\ImageFeature.h(105): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+                 C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(99) : see reference to function template instantiation 'void ImageFeature::imSIFT<float>(const Image<float> &,UCImage &,int,int,bool,int)' being compiled
+     1>C:\Users\Administrator\Desktop\CPM-master\.\include\ImageFeature.h(151): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>C:\Users\Administrator\Desktop\CPM-master\.\include\ImageFeature.h(206): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\.\include\ImageFeature.h(207): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\.\include\ImageFeature.h(208): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>C:\Users\Administrator\Desktop\CPM-master\.\include\ImageFeature.h(209): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>c:\users\administrator\desktop\cpm-master\include\Image.h(701): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(142) : see reference to function template instantiation 'void Image<int>::copy<int>(const Image<int> &)' being compiled
+                 C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(142) : see reference to function template instantiation 'void Image<int>::copy<int>(const Image<int> &)' being compiled
+     1>c:\users\administrator\desktop\cpm-master\include\Image.h(705): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\administrator\desktop\cpm-master\include\ImageProcessing.h(312): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+                 c:\users\administrator\desktop\cpm-master\include\Image.h(806) : see reference to function template instantiation 'void ImageProcessing::ResizeImage<T,T>(const T1 *,T2 *,int,int,int,float,InterType)' being compiled
+                 with
+                 [
+                     T=int
+         ,            T1=int
+         ,            T2=int
+                 ]
+                 c:\users\administrator\desktop\cpm-master\include\Image.h(796) : while compiling class template member function 'bool Image<int>::imresize(float,InterType)'
+     1>c:\users\administrator\desktop\cpm-master\include\ImageProcessing.h(313): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\administrator\desktop\cpm-master\include\ImageProcessing.h(339): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\administrator\desktop\cpm-master\include\ImageProcessing.h(340): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\administrator\desktop\cpm-master\include\Image.h(2231): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+                 c:\users\administrator\desktop\cpm-master\include\Image.h(1032) : see reference to function template instantiation 'void Image<int>::normalize<unsigned char>(Image<unsigned char> &,float,float) const' being compiled
+                 c:\users\administrator\desktop\cpm-master\include\Image.h(1032) : see reference to function template instantiation 'void Image<int>::normalize<unsigned char>(Image<unsigned char> &,float,float) const' being compiled
+                 c:\users\administrator\desktop\cpm-master\include\Image.h(1029) : while compiling class template member function 'void Image<int>::imagesc(char *,int) const'
+     1>c:\users\administrator\desktop\cpm-master\include\ImageIO.h(126): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+                 c:\users\administrator\desktop\cpm-master\include\Image.h(1033) : see reference to function template instantiation 'void ImageIO::showGrayImageAsColor<int>(const char *,const unsigned char *,int,int,T,T,int)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\administrator\desktop\cpm-master\include\ImageIO.h(128): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\cpm-master\include\Image.h(821): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+                 C:\Users\Administrator\Desktop\CPM-master\.\include\ImagePyramid.h(74) : see reference to function template instantiation 'void Image<float>::imresize<float>(Image<float> &,float,InterType) const' being compiled
+                 C:\Users\Administrator\Desktop\CPM-master\.\include\ImagePyramid.h(74) : see reference to function template instantiation 'void Image<float>::imresize<float>(Image<float> &,float,InterType) const' being compiled
+                 C:\Users\Administrator\Desktop\CPM-master\.\include\ImagePyramid.h(53) : while compiling class template member function 'void ImagePyramid<float>::ConstructPyramid(const Image<float> &,float,int)'
+                 C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(86) : see reference to function template instantiation 'void ImagePyramid<float>::ConstructPyramid(const Image<float> &,float,int)' being compiled
+     1>c:\users\administrator\desktop\cpm-master\include\Image.h(822): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\administrator\desktop\cpm-master\include\ImageProcessing.h(230): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+                 c:\users\administrator\desktop\cpm-master\include\ImageProcessing.h(327) : see reference to function template instantiation 'void ImageProcessing::BilinearInterpolate<T1,T2>(const T1 *,int,int,int,float,float,T2 *)' being compiled
+                 with
+                 [
+                     T1=int
+         ,            T2=int
+                 ]
+                 c:\users\administrator\desktop\cpm-master\include\Image.h(806) : see reference to function template instantiation 'void ImageProcessing::ResizeImage<T,T>(const T1 *,T2 *,int,int,int,float,InterType)' being compiled
+                 with
+                 [
+                     T=int
+         ,            T1=int
+         ,            T2=int
+                 ]
+     1>c:\users\administrator\desktop\cpm-master\include\ImageProcessing.h(231): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\administrator\desktop\cpm-master\include\ImageProcessing.h(246): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\administrator\desktop\cpm-master\include\ImageIO.h(247): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\administrator\desktop\cpm-master\include\ImageIO.h(80) : see reference to function template instantiation 'void ImageIO::CvmatToPixels<T>(const cv::Mat &,T *&,int &,int &,int &)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\administrator\desktop\cpm-master\include\Image.h(954) : see reference to function template instantiation 'bool ImageIO::loadImage<T>(const char *,T *&,int &,int &,int &)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\administrator\desktop\cpm-master\include\Image.h(952) : while compiling class template member function 'bool Image<int>::imread(const char *)'
+     1>c:\users\administrator\desktop\cpm-master\include\ImageIO.h(189): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\administrator\desktop\cpm-master\include\ImageIO.h(87) : see reference to function template instantiation 'cv::Mat ImageIO::CvmatFromPixels<T>(const T *,int,int,int,ImageIO::ImageType)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\administrator\desktop\cpm-master\include\Image.h(1001) : see reference to function template instantiation 'bool ImageIO::saveImage<T>(const char *,const T *,int,int,int,ImageIO::ImageType)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\administrator\desktop\cpm-master\include\Image.h(1000) : while compiling class template member function 'bool Image<int>::imwrite(const char *,ImageIO::ImageType) const'
+     1>c:\users\administrator\desktop\cpm-master\include\ImageIO.h(201): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>c:\users\administrator\desktop\cpm-master\include\ImageIO.h(212): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\cpm-master\include\ImageIO.h(214): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\cpm-master\include\Image.h(701): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+                 c:\users\administrator\desktop\cpm-master\include\Image.h(2225) : see reference to function template instantiation 'void Image<unsigned char>::copy<int>(const Image<int> &)' being compiled
+                 c:\users\administrator\desktop\cpm-master\include\Image.h(2225) : see reference to function template instantiation 'void Image<unsigned char>::copy<int>(const Image<int> &)' being compiled
+                 c:\users\administrator\desktop\cpm-master\include\Image.h(1032) : see reference to function template instantiation 'void Image<int>::normalize<unsigned char>(Image<unsigned char> &,float,float) const' being compiled
+                 c:\users\administrator\desktop\cpm-master\include\Image.h(1032) : see reference to function template instantiation 'void Image<int>::normalize<unsigned char>(Image<unsigned char> &,float,float) const' being compiled
+     1>c:\users\administrator\desktop\cpm-master\include\Image.h(705): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>c:\users\administrator\desktop\cpm-master\include\ImageProcessing.h(246): warning C4244: '+=' : conversion from 'float' to 'unsigned char', possible loss of data
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\cpm-master\include\ImageIO.h(195): warning C4244: '=' : conversion from 'const float' to 'uchar', possible loss of data
+     1>c:\users\administrator\desktop\cpm-master\include\ImageIO.h(197): warning C4244: '=' : conversion from 'const float' to 'uchar', possible loss of data
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\cpm-master\include\Image.h(710): warning C4244: '=' : conversion from 'const float' to 'unsigned char', possible loss of data
+     1>c:\users\administrator\desktop\cpm-master\include\ImageProcessing.h(542): warning C4101: 'offset' : unreferenced local variable
+                 c:\users\administrator\desktop\cpm-master\include\Image.h(1471) : see reference to function template instantiation 'void ImageProcessing::vfiltering<T1,T>(const T1 *,T2 *,int,int,int,const float *,int)' being compiled
+                 with
+                 [
+                     T1=float
+         ,            T=float
+         ,            T2=float
+                 ]
+                 C:\Users\Administrator\Desktop\CPM-master\.\include\ImageFeature.h(129) : see reference to function template instantiation 'void Image<float>::imfilter_hv<float>(Image<float> &,const float *,int,const float *,int) const' being compiled
+                 C:\Users\Administrator\Desktop\CPM-master\.\include\ImageFeature.h(129) : see reference to function template instantiation 'void Image<float>::imfilter_hv<float>(Image<float> &,const float *,int,const float *,int) const' being compiled
+                 C:\Users\Administrator\Desktop\CPM-master\CPM.cpp(99) : see reference to function template instantiation 'void ImageFeature::imSIFT<float>(const Image<float> &,UCImage &,int,int,bool,int)' being compiled
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\CPM-master\build\Release\CPM.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:/OpenCV/lib/x86/Debug /LIBPATH:C:/OpenCV/lib/x86/Debug/Release /LIBPATH:C:/OpenCV/lib/x86/Release /LIBPATH:C:/OpenCV/lib/x86/Release/Release opencv_core249.lib opencv_highgui249.lib opencv_imgproc249.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Administrator/Desktop/CPM-master/build/Release/CPM.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/CPM-master/build/Release/CPM.lib" /MACHINE:X64  /machine:x64 CPM.dir\Release\main.obj
+         CPM.dir\Release\CPM.obj
+         CPM.vcxproj -> C:\Users\Administrator\Desktop\CPM-master\build\Release\CPM.exe
+       FinalizeBuildStatus:
+         Deleting file "CPM.dir\Release\CPM.tlog\unsuccessfulbuild".
+         Touching "CPM.dir\Release\CPM.tlog\CPM.lastbuildstate".
+     1>Done Building Project "C:\Users\Administrator\Desktop\CPM-master\build\CPM.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.82

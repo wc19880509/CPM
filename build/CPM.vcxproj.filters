@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Administrator\Desktop\CPM-master\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\CPM-master\CPM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\CPM-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2511F7E7-748F-359E-BFD2-961C4907365D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Head Files">
+      <UniqueIdentifier>{f30ea130-8a98-4a4b-bc82-8743e4d8915c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Vector.h">
+      <Filter>Head Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FlowIO.h">
+      <Filter>Head Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Image.h">
+      <Filter>Head Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ImageFeature.h">
+      <Filter>Head Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ImageIO.h">
+      <Filter>Head Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ImageProcessing.h">
+      <Filter>Head Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ImagePyramid.h">
+      <Filter>Head Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NoiseModel.h">
+      <Filter>Head Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\OpticalFlow.h">
+      <Filter>Head Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\project.h">
+      <Filter>Head Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Stochastic.h">
+      <Filter>Head Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Util.h">
+      <Filter>Head Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CPM.h">
+      <Filter>Head Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
